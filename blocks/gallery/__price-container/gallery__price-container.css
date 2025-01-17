@@ -1,0 +1,7 @@
+.gallery__price-container {
+  display: flex;
+  flex-direction: row;
+  height: 31px;
+  align-items: center;
+  margin-top: 12px;
+}

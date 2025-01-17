@@ -1,0 +1,22 @@
+@import url('./__logo/intro__logo.css');
+@import url('./__container/intro__container.css');
+@import url('./__text/intro__text.css');
+@import url('./__div/intro__div.css');
+@import url('./__search/intro__search.css');
+@import url('./__search-text/intro__search-text.css');
+@import url('./__search-button/intro__search-button.css');
+@import url('./__basket/intro__basket.css');
+@import url('./__basket-container/intro__basket-container.css');
+@import url('./__basket-button/intro__basket-button.css');
+@import url('./__counter/intro__counter.css');
+@import url('./__basket-text/intro__basket-text.css');
+
+
+.intro {
+  position: relative;
+  width: 1400px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

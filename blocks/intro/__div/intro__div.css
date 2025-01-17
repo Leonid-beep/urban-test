@@ -1,0 +1,9 @@
+.intro__div {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  width: 328px;
+  height: 39px;
+  justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+.intro__counter {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100px;
+  background-color: white;
+  margin: 0;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16.8px;
+  text-align: center;
+  color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

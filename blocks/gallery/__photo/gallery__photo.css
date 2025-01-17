@@ -1,0 +1,13 @@
+.gallery__photo {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  height: 477px;
+  position: relative;
+}
+
+.gallery__photo:hover .gallery__button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

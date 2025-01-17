@@ -1,0 +1,11 @@
+.gallery__button-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 88px;
+  background-color: #F5F5F5B2;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: none;
+}

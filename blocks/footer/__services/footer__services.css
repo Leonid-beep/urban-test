@@ -1,0 +1,8 @@
+.footer__services {
+  display: flex;
+  width: 140px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}

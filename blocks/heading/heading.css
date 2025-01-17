@@ -1,0 +1,10 @@
+@import url('./__text/heading__text.css');
+
+.heading {
+  margin-top: 60px;
+  width: 1400px;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}

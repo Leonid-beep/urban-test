@@ -1,0 +1,9 @@
+.intro__basket-container {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
