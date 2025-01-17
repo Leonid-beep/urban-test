@@ -5,6 +5,7 @@
 @import url('./__search/intro__search.css');
 @import url('./__search-text/intro__search-text.css');
 @import url('./__search-button/intro__search-button.css');
+@import url('./__search-white/intro__search-white.css');
 @import url('./__basket/intro__basket.css');
 @import url('./__basket-container/intro__basket-container.css');
 @import url('./__basket-button/intro__basket-button.css');
@@ -19,4 +20,23 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .intro {
+    width: min(100%, 1240px);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    width: min(100%, 900px);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .intro {
+    width: min(100%, 750px);
+  }
 }

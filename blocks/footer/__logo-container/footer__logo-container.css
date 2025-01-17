@@ -6,3 +6,9 @@
   align-items: start;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 960px) {
+  .footer__logo-container {
+    width: 250px;
+  }
+}

@@ -8,3 +8,22 @@
   flex-direction: row;
   align-items: start;
 }
+
+@media screen and (max-width: 1600px) {
+  .heading {
+    width: min(100%, 1240px);
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .heading {
+    width: min(100%, 900px);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .heading {
+    width: min(100%, 750px);
+  }
+}

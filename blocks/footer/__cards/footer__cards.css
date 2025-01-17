@@ -5,3 +5,10 @@
   height: 31px;
   width: 214.76px;
 }
+
+
+@media screen and (max-width: 960px) {
+  .footer__cards {
+    width: 190px;
+  }
+}

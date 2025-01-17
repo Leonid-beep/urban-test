@@ -6,3 +6,15 @@
   line-height: 20.8px;
   color: #808080;
 }
+
+@media screen and (max-width: 1280px) {
+  .footer__conditions {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer__conditions {
+    font-size: 12px;
+  }
+}

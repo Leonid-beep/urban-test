@@ -8,3 +8,10 @@
   margin-left: 21px;
   margin-right: 62px;
 }
+
+
+@media screen and (max-width: 1600px) {
+  .intro__search-text {
+    display: none;
+  }
+}

@@ -1,8 +1,28 @@
 .footer__container {
-  width: 1400px;;
+  width: 1400px;
   height: 198px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .footer__container {
+    width: min(100%, 1240px);
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .footer__container {
+    width: min(100%, 900px);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer__container {
+    width: min(100%, 750px);
+  }
 }

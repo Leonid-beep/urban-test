@@ -2,3 +2,10 @@
   width: 21.27px;
   height: 21.27px;
 }
+
+
+@media screen and (max-width: 1600px) {
+  .intro__search-button {
+    display: none;
+  }
+}

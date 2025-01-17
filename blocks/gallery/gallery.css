@@ -25,3 +25,29 @@
   column-gap: 40px;
   row-gap: 50px;
 }
+
+
+@media screen and (max-width: 1600px) {
+  .gallery {
+    width: min(100%, 1240px);
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .gallery {
+    width: min(100%, 900px);
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .gallery {
+    width: min(100%, 750px);
+    height: 800px;
+  }
+}

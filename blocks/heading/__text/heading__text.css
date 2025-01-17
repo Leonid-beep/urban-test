@@ -6,3 +6,10 @@
   line-height: 61.6px;
   color: #231815;
 }
+
+
+@media screen and (max-width: 1600px) {
+  .heading__text {
+    font-size: 40px;
+  }
+}
