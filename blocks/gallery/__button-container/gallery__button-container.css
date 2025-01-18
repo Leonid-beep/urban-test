@@ -9,3 +9,22 @@
   border-bottom-left-radius: 20px;
   display: none;
 }
+
+
+@media screen and (max-width: 1280px) {
+  .gallery__button-container {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .gallery__button-container {
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .gallery__button-container {
+    height: 55px;
+  }
+}

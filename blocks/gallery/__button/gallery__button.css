@@ -17,3 +17,43 @@
   border: 0;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 1280px) {
+  .gallery__button {
+    width: 200px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .gallery__button {
+    width: 170px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .gallery__button {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gallery__button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .gallery__button {
+    width: 150px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .gallery__button {
+    width: 120px;
+  }
+}
