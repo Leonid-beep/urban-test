@@ -6,3 +6,26 @@
   justify-content: space-between;
   align-items: start;
 }
+
+
+@media screen and (max-width: 770px) {
+  .footer__services {
+    height: 238px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer__services {
+    height: 198px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .footer__services {
+    top: 278px;
+    left: 0;
+  }
+}

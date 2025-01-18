@@ -27,3 +27,31 @@
     width: min(100%, 750px);
   }
 }
+
+
+@media screen and (max-width: 770px) {
+  .heading {
+    width: min(100%, 680px);
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .heading {
+    width: min(100%, 500px);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .heading {
+    width: min(100%, 380px);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .heading {
+    width: min(100%, 320px);
+    margin-top: 40px;
+  }
+}

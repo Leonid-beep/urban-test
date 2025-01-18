@@ -6,3 +6,11 @@
   justify-content: space-between;
   align-items: end;
 }
+
+
+@media screen and (max-width: 770px) {
+  .footer__politics {
+    align-items: start;
+    height: 62px;
+  }
+}

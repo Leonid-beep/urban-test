@@ -26,3 +26,31 @@
     width: min(100%, 750px);
   }
 }
+
+
+@media screen and (max-width: 770px) {
+  .footer__container {
+    width: min(100%, 680px);
+    height: 405px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer__container {
+    width: min(100%, 500px);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer__container {
+    width: min(100%, 380px);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .footer__container {
+    width: min(100%, 320px);
+    height: 787px;
+  }
+}

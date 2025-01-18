@@ -7,3 +7,20 @@
   align-items: flex-end;
   justify-content: space-between;
 }
+
+
+@media screen and (max-width: 770px) {
+  .footer__other-container {
+    align-items: start;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width: 390px) {
+  .footer__other-container {
+    top: 506px;
+  }
+}

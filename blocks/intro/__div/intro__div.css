@@ -14,3 +14,9 @@
     width: 200px;
   }
 }
+
+@media screen and (max-width: 770px) {
+  .intro__div {
+    display: none;
+  }
+}

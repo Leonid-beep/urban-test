@@ -7,3 +7,12 @@
   color: #231815;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 390px) {
+  .gallery__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-top: 10px;
+  }
+}

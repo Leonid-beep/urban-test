@@ -18,3 +18,38 @@
     font-size: 12px;
   }
 }
+
+
+@media screen and (max-width: 770px) {
+  .footer__conditions {
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    width: 382px;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  .footer__conditions {
+    font-size: 12px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer__conditions {
+    font-size: 10px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .footer__conditions {
+    width: 321px;
+    left: 0;
+    bottom: 0;
+    font-size: 16px;
+  }
+}

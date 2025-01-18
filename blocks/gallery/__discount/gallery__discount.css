@@ -18,3 +18,13 @@
   top: 10px;
   left: 10px;
 }
+
+
+@media screen and (max-width: 390px) {
+  .gallery__discount {
+    width: 70px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+}

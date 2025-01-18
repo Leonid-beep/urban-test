@@ -3,3 +3,14 @@
     width: 180px;
   }
 }
+
+
+@media screen and (max-width: 770px) {
+  .footer__logo {
+    width: 180px;
+    height: 46.77px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

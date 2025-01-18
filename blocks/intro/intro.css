@@ -11,6 +11,7 @@
 @import url('./__basket-button/intro__basket-button.css');
 @import url('./__counter/intro__counter.css');
 @import url('./__basket-text/intro__basket-text.css');
+@import url('./__menu/intro__menu.css');
 
 
 .intro {
@@ -38,5 +39,33 @@
 @media screen and (max-width: 960px) {
   .intro {
     width: min(100%, 750px);
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  .intro {
+    width: min(100%, 680px);
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro {
+    width: min(100%, 500px);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .intro {
+    width: min(100%, 380px);
+  }
+}
+
+
+@media screen and (max-width: 390px) {
+  .intro {
+    width: min(100%, 320px);
+    height: 56px;
   }
 }
